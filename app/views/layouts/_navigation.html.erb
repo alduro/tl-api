@@ -3,7 +3,7 @@
     <%= link_to('<span class="glyphicon glyphicon-home"></span> Welcome'.html_safe, root_path) %>
   </li>
 </ul>
-<ul class="nav navbar-nav navbar-right">
+<ul class="nav navbar-nav navbar-right flex-row">
   <% if current_user %>
     <li>
       <%= link_to('<span class="glyphicon glyphicon-cog"></span> Settings'.html_safe, edit_user_registration_path) %>
