@@ -1,20 +1,16 @@
-module Api
-  module V1
-    class RepliesController < ApplicationController
-      def index
-      end
+class Api::V1::RepliesController < ApplicationController
+  def index
+  end
 
-      def create
-      end
+  def create
+  end
 
-      def show
-      end
+  def show
+  end
 
-      def update
-      end
+  def update
+  end
 
-      def destroycreate
-      end
-    end
+  def destroycreate
   end
 end
