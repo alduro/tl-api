@@ -1,6 +1,6 @@
 module Api
   module V1
-    class RepliessController < ApplicationController
+    class RepliesController < ApplicationController
       def index
       end
 
